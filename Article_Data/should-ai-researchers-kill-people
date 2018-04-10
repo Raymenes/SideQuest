@@ -1,0 +1,37 @@
+AI research is increasingly being used by militaries around the world for offensive and defensive applications. This past week, groups of AI researchers began to fight back against two separate programs located halfway around the world from each other, generating tough questions about just how much engineers can affect the future uses of these technologies.
+
+From Silicon Valley, The New York Times published an internal protest memo written by several thousand Google  employees, which vociferously opposed Google’s work on a Defense Department-led initiative called Project Maven, which aims to use computer vision algorithms to analyze vast troves of image and video data.
+
+As the department’s news service quoted Marine Corps Col. Drew Cukor last year about the initiative:
+
+“You don’t buy AI like you buy ammunition,” he added. “There’s a deliberate workflow process and what the department has given us with its rapid acquisition authorities is an opportunity for about 36 months to explore what is governmental and [how] best to engage industry [to] advantage the taxpayer and the warfighter, who wants the best algorithms that exist to augment and complement the work he does.”
+
+Google’s employees are demanding that the company step back from exactly that sort of partnership, writing in their memo:
+
+Amid growing fears of biased and weaponized AI, Google is already struggling to keep the public’s trust. By entering into this contract, Google will join the ranks of companies like Palantir, Raytheon, and General Dynamics. The argument that other firms, like Microsoft and Amazon, are also participating doesn’t make this any less risky for Google. Google’s unique history, its motto Don’t Be Evil, and its direct reach into the lives of billions of users set it apart.
+
+Meanwhile, in South Korea, there is growing outrage over a program to develop offensive robots jointly created by the country’s top engineering university KAIST — the Korea Advanced Institute of Science and Technology — and Korean conglomerate Hanhwa, which among other product lines is one of the largest producers of munitions for the country. Dozens of AI academics around the world have initiated a protest of the collaboration, writing that:
+
+At a time when the United Nations is discussing how to contain the threat posed to international security by autonomous weapons, it is regrettable that a prestigious institution like KAIST looks to accelerate the arms race to develop such weapons. We therefore publicly declare that we will boycott all collaborations with any part of KAIST until such time as the President of KAIST provides assurances, which we have sought but not received, that the Center will not develop autonomous weapons lacking meaningful human control.
+
+Here’s the thing: These so-called “killer robots” are seriously the least of our concerns. Such offensive technology is patently obvious, and researchers are free to decide whether they want to participate or not participate in such endeavors.
+
+The wider challenge for the field is that all artificial intelligence research is equally applicable to offensive technologies as it is to improving the human condition. The entire research program around AI is to create new capabilities for computers to perceive, predict, decide and act without human intervention. For researchers, the best algorithms are idealized and generalizable, meaning that they should apply to any new subject with some tweaks and maybe more training data.
+
+Practically, there is no way to prevent these newfound capabilities from entering offensive weapons. Even if the best researchers in the world refused to work on technologies that abetted offensive weapons, others could easily take these proven models “off the shelf” and apply them relatively straightforwardly to new applications. That’s not to say that battlefield applications don’t have their own challenges that need to be figured out, but developing core AI capabilities is the critical block in launching these sorts of applications.
+
+AI is a particularly vexing problem of dual-use — the ability of a technology to be used for both positive applications and negative ones. A good example is nuclear theory, which can be used to massively improve human healthcare through magnetic resonance imagery and power our societies with nuclear power reactors, or it can be used in a bomb to kill hundreds of thousands.
+
+AI is challenging because unlike, say, nuclear weapons, which require unique hardware that signals their development to other powers, AI has no such requirements. For all the talk of Tensor Processing Units, the key innovations in AI are mathematical and software in origin, before hardware performance optimization. We could build an autonomous killing drone today with a consumer-grade drone, a robotic gun trigger and computer vision algorithms downloaded from GitHub. It may not be perfect, but it would “work.” In this way, it is similar to bioweapons, which can similarly be built with standard lab equipment.
+
+Other than outright stopping development of artificial intelligence capabilities entirely, this technology is going to get built, which means it is absolutely possible to build these weapons and launch them against adversaries.
+
+In other words, AI researchers are going to kill people, whether they like it or not.
+
+Given that context, the right mode for organizing isn’t to stop Google from working with the Pentagon, it is to encourage Google, which is among the most effective lobbying forces in Washington, to push for more international negotiations to ban these sorts of offensive weapons in the first place. Former Alphabet chairman Eric Schmidt chairs the Defense Innovation Board, and has a perfect perch from which to make these concerns known to the right policymakers. Such negotiations have been effective in limiting bioweapons, chemical warfare and weapons in outer space, even during the height of the Cold War. There is no reason to believe that success is out of reach.
+
+That said, one challenge with this vision is competition from China. China has made autonomous warfare a priority, investing billions into the industry in pursuit of new tools to fight American military hegemony. Even if the U.S. and the world wanted to avoid these weapons, we may not have much of a choice. I, for one, would prefer to see the world’s largest dictatorship not acquire these weapons without any sort of countermeasure from the democratized world.
+
+It’s important to note, though, that such fears about war and technology are hardly new. Computing power was at the heart of the “precision” bombing campaigns in Vietnam throughout the 1960s, and significant campus protests were focused on stopping newly founded computation centers from conducting their work. In many cases, classified research was banned from campus, and ROTC programs were similarly removed, only to be reinstated in recent years. The Pugwash conferences were conceived in the 1950s as a forum for scientists concerned about the global security implications of emerging technologies, namely nuclear energy.
+
+These debates will continue, but we need to be aware that all AI developments will likely lead to better offensive weapons capabilities. Better to accept that reality today and work to protect the ethical norms of war than try to avoid it, only to discover that other adversaries have taken the AI lead — and international power with it.
