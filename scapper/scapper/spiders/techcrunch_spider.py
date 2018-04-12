@@ -8,10 +8,11 @@ class TechCrunchSpider(scrapy.Spider):
     name = "techcrunch"
 
     def start_requests(self):
-        start_date = datetime(2018, 4, 1)
+        start_date = datetime(2017, 1, 1)
+        end_date = datetime(2017, 12, 31)
 
         date = start_date
-        while date <= datetime.now():
+        while date <= end_date:
             new_request = scrapy.Request(self.generate_url(date))
             new_request.meta["date"] = date
             new_request.meta["page_number"] = 1
@@ -50,18 +51,11 @@ class TechCrunchSpider(scrapy.Spider):
 
 
     def parse_article(self, response):
-        # l = TechCrunchArticleLoader(Article(), response=response)
-        # l.add_xpath('title', '//h1/text()')
-        # l.add_xpath('text', '//div[starts-with(@class,"article-entry text")]/p//text()')
-        # # l.add_xpath('text', '//div[@class="article-entry text"]/p//text()')
-        # l.add_xpath('tags', '//div[@class="loaded acc-handle"]/a/text()')
-        # l.add_value('date', str(response.meta['date']))
-        # l.add_value('url', response.url)
-        # return l.load_item()
+
         yield {
             'title': response.xpath('//h1/text()').extract(),
-            'text': ''.join(response.xpath('//div[starts-with(@class,"article-content")]/p//text()').extract()),
+            'text': response.xpath('//div[starts-with(@class,"article-content")]/p//text()').extract(),
             #'tags': response.xpath('//div[@class="loaded acc-handle"]/a/text()').extract(),
-            'date': str(response.meta['date']),
+            'date': response.meta['date'].strftime("%Y/%m/%d"),
             'url' : response.url
         }
