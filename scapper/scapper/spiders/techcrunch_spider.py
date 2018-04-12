@@ -8,8 +8,8 @@ class TechCrunchSpider(scrapy.Spider):
     name = "techcrunch"
 
     def start_requests(self):
-        start_date = datetime(2017, 1, 1)
-        end_date = datetime(2017, 12, 31)
+        start_date = datetime(2016, 1, 1)
+        end_date = datetime(2016, 12, 31)
 
         date = start_date
         while date <= end_date:
